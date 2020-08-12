@@ -1,0 +1,29 @@
+{
+   "name": "nic-timer",
+   "version": "1.0.0",
+   "description": "CLI Alarm and timer to play a sound after a certain amount of time",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "muaddib",
+   "license": "ISC",
+   "dependencies": {
+      "enquirer": "^2.3.6",
+      "mathjs": "^7.1.0",
+      "moment": "^2.27.0",
+      "moment-duration-format": "^2.3.2",
+      "play-sound": "^1.1.3",
+      "yargs": "^15.4.1"
+   },
+   "bin": {
+      "nic-timer": "./index.js"
+   },
+   "keywords": [
+      "cli",
+      "timer",
+      "sound",
+      "alarm",
+      "egg timer"
+   ]
+}
